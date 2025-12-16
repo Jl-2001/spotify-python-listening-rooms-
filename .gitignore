@@ -1,0 +1,59 @@
+# ----------------------
+# Python / FastAPI
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.sqlite3
+*.db
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# Uvicorn / logs
+*.log
+
+# ----------------------
+# Node / React (Vite)
+# ----------------------
+node_modules/
+dist/
+build/
+
+# Vite cache
+.vite/
+vite.config.local.*
+
+# Dependency lock backup files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# ----------------------
+# OS / Editor Files
+# ----------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ----------------------
+# Optional: SQLite migrations / alembic
+# ----------------------
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+
+# ----------------------
+# Optional Docker
+# ----------------------
+docker-data/
